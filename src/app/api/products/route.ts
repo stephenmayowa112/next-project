@@ -11,6 +11,14 @@ const products: Product[] = [
     category: 'Category A',
     image: '/images/product1.jpg',
   },
+  {
+    id: '2',
+    name: 'Product 2',
+    description: 'This is product 2',
+    price: 9.99,
+    category: 'Category c',
+    image: '/images/product1.jpg',
+  },
   // Add more products here
 ]
 
