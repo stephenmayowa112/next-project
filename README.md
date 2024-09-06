@@ -1,14 +1,14 @@
-> **E-commerce Product Listing Platform**
+# **E-commerce Product Listing Platform**
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Project Overview
+## **Project Overview**
 
 This project is an E-commerce Product Listing Platform built using Next.js 13 with App Router, TypeScript, and Tailwind CSS. It showcases a list of products with features such as filtering by category and price range. The application demonstrates modern web development practices, including server-side rendering, API routes, and responsive design.
 
 
 
-**Features**
+## **Features**
 
 Product listing with server-side rendering
 Client-side filtering by category and price range
@@ -19,7 +19,7 @@ Next.js App Router for efficient routing and API handling
 
 
 
-**Design Decisions and Optimizations**
+## **Design Decisions and Optimizations**
 
 1. Server-Side Rendering (SSR): The initial product data is fetched server-side in page.tsx to improve initial load time and SEO.
 
@@ -38,7 +38,7 @@ Next.js App Router for efficient routing and API handling
 
 
 
-**SEO Considerations**
+## **SEO Considerations**
 
 * Server-side rendering of the product list ensures that search engines can crawl the content effectively.
 
@@ -51,7 +51,7 @@ Next.js App Router for efficient routing and API handling
 
 
 
-**Performance Considerations**
+## **Performance Considerations**
 
 * Image optimization is handled by Next.js's Image component to ensure efficient loading of product images.
 
@@ -64,7 +64,7 @@ Next.js App Router for efficient routing and API handling
 
 
 
-**Future Enhancements**
+## **Future Enhancements**
 
 * Implement individual product detail pages
 
