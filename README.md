@@ -18,31 +18,6 @@ Next.js App Router for efficient routing and API handling
 
 
 
-Project Structure
-
-
-
-ecommerce-product-listing/
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   └── products/
-│   │   │       └── route.ts
-│   │   ├── page.tsx
-│   │   └── layout.tsx
-│   ├── components/
-│   │   ├── ClientProductList.tsx
-│   │   └── FilterControls.tsx
-│   └── types/
-│       └── product.ts
-├── public/
-├── package.json
-├── tsconfig.json
-└── tailwind.config.js
-
-
-
-
 
 Design Decisions and Optimizations
 
