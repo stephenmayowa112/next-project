@@ -6,6 +6,8 @@ Project Overview
 
 This project is an E-commerce Product Listing Platform built using Next.js 13 with App Router, TypeScript, and Tailwind CSS. It showcases a list of products with features such as filtering by category and price range. The application demonstrates modern web development practices, including server-side rendering, API routes, and responsive design.
 
+
+
 Features
 
 Product listing with server-side rendering
@@ -14,7 +16,11 @@ Responsive design using Tailwind CSS
 TypeScript for enhanced type safety and developer experience
 Next.js App Router for efficient routing and API handling
 
+
+
 Project Structure
+
+
 
 ecommerce-product-listing/
 ├── src/
@@ -35,7 +41,11 @@ ecommerce-product-listing/
 └── tailwind.config.js
 
 
+
+
+
 Design Decisions and Optimizations
+
 1. Server-Side Rendering (SSR): The initial product data is fetched server-side in page.tsx to improve initial load time and SEO.
 
 2. Client-Side Filtering: Product filtering is implemented on the client side to provide a smooth user experience without page reloads.
@@ -49,6 +59,10 @@ Design Decisions and Optimizations
 6. Next.js App Router: Leveraged for its file-based routing system and built-in API route handling.
 
 
+
+
+
+
 SEO Considerations
 
 * Server-side rendering of the product list ensures that search engines can crawl the content effectively.
@@ -58,6 +72,10 @@ SEO Considerations
 * Future improvements could include dynamic metadata for individual product pages and implementation of a sitemap.
 
 
+
+
+
+
 Performance Considerations
 
 * Image optimization is handled by Next.js's Image component to ensure efficient loading of product images.
@@ -65,6 +83,10 @@ Performance Considerations
 * Client-side filtering reduces server load for common user interactions.
 
 * The use of TypeScript and modular components contributes to a more maintainable and performant codebase.
+
+
+
+
 
 
 Future Enhancements
