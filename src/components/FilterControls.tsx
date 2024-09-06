@@ -19,16 +19,16 @@ export default function FilterControls({ categories = [], onFilterChange }: Filt
   }
 
   return (
-    <div className="mb-6 p-4 bg-gray-100 rounded-lg">
+    <div className="mb-6 p-4 bg-gray-800 rounded-lg">
       <h2 className="text-xl font-semibold mb-4">Filter Products</h2>
       <div className="flex flex-wrap gap-4">
         <div>
-          <label htmlFor="category" className="block mb-2">Category:</label>
+          <label htmlFor="category"  className="block mb-2" >Category:</label>
           <select
             id="category"
             value={category}
             onChange={(e) => setCategory(e.target.value)}
-            className="border rounded px-2 py-1"
+            className="border rounded px-2 py-1 text-black"
           >
             <option value="">All Categories</option>
             {categories.map((cat) => (
@@ -37,13 +37,13 @@ export default function FilterControls({ categories = [], onFilterChange }: Filt
           </select>
         </div>
         <div>
-          <label htmlFor="minPrice" className="block mb-2">Min Price:</label>
+          <label htmlFor="minPrice" className="block mb-2 ">Min Price:</label>
           <input
             type="number"
             id="minPrice"
             value={minPrice}
             onChange={(e) => setMinPrice(Number(e.target.value))}
-            className="border rounded px-2 py-1 w-24"
+            className="border rounded px-2 py-1 w-24 text-black"
           />
         </div>
         <div>
@@ -53,7 +53,7 @@ export default function FilterControls({ categories = [], onFilterChange }: Filt
             id="maxPrice"
             value={maxPrice}
             onChange={(e) => setMaxPrice(Number(e.target.value))}
-            className="border rounded px-2 py-1 w-24"
+            className="border rounded px-2 py-1 w-24 text-black"
           />
         </div>
         <div className="flex items-end">
